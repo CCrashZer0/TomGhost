@@ -26,7 +26,7 @@ Once the results came back there was only one thing that appeared out of place t
 
 By default, Apache Tomcat listens on 3 ports, 8005, 8009 and 8080. A common misconfiguration is blocking port 8080 but leaving ports 8005 or 8009 open for public access.  
 
-![nmapResulst](images/nmapresults.png "NMAP")  
+![nmapResulst](images/nmapresults.png "NMAP")
 
 We will bu using the following tool to exploit this vulnerability.  
 [00theway/Ghostcat-CNVD-2020-10487](https://github.com/00theway/Ghostcat-CNVD-2020-10487)  
@@ -39,7 +39,7 @@ It would seems that we where able to find what seems to be both a user name and 
 
 Let's look back at our nmap scan. Remeber that port 22 was open. We might be able to use these credentials to log into our box.  
 
-Command: `ssh <username>@10.10.93.77`
+Command: `ssh <username>@10.10.93.77`  
 Enter in the password when you are prompted to and BLAM! we are connected under that user account.  
 
 ![sfUser](images/sfUser.png "sfUser")  
