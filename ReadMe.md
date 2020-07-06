@@ -98,4 +98,4 @@ cat /root/root.txt
 ```
 ![rootFlag](images/rootFlag.png "rootFlag") 
 
-# Congratulations you have just completed the Tomghost challange!
+# Congratulations you have just completed the Tomghost challenge!
